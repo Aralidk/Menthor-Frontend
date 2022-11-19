@@ -1,0 +1,49 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear --single",
+    "prepare": "smui-theme compile public/smui.css -i src/theme"
+  },
+  "devDependencies": {
+    "@fullcalendar/common": "^5.11.2",
+    "@fullcalendar/core": "^5.11.2",
+    "@fullcalendar/daygrid": "^5.11.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-svelte-svg": "^1.0.0-beta.6",
+    "rollup-plugin-terser": "^7.0.0",
+    "smui-theme": "^6.0.0",
+    "svelte": "^3.49.0",
+    "svelte-fullcalendar": "^2.0.0-beta.0",
+    "svelte-preprocess": "^4.10.7"
+  },
+  "dependencies": {
+    "@ernane/svelte-star-rating": "^1.1.0",
+    "@fullcalendar/interaction": "^5.11.2",
+    "@fullcalendar/timegrid": "^5.11.2",
+    "@splidejs/svelte-splide": "^0.2.5",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "date-fns": "^2.29.1",
+    "peerjs": "^1.4.6",
+    "sirv-cli": "^2.0.0",
+    "svelte-carousel": "^1.0.19",
+    "svelte-french-toast": "^1.0.3",
+    "svelte-material-ui": "^6.0.0",
+    "svelte-routing": "^1.6.0",
+    "svelte-tabs": "^1.1.0",
+    "svelte-tags-input": "^2.9.2",
+    "svelte-typed-js": "^1.0.3",
+    "svelty-picker": "^2.1.1",
+    "sweetalert2": "^11.4.24",
+    "yup": "^0.32.11"
+  }
+}
